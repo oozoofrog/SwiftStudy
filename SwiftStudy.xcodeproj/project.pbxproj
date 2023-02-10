@@ -16,6 +16,7 @@
 		7449B15C298AA648000D4D1C /* SwiftStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449B15B298AA648000D4D1C /* SwiftStudyTests.swift */; };
 		7449B17A298AB582000D4D1C /* Commits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449B179298AB582000D4D1C /* Commits.swift */; };
 		7449B17C298AB6FF000D4D1C /* commits in Resources */ = {isa = PBXBuildFile; fileRef = 7449B17B298AB6FF000D4D1C /* commits */; };
+		74A9DD522996A29B00185469 /* CommitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9DD512996A29B00185469 /* CommitView.swift */; };
 		74C8A6AD29928781001E6A79 /* testcommits in Resources */ = {isa = PBXBuildFile; fileRef = 74C8A6AC29928781001E6A79 /* testcommits */; };
 		74C8A6AF2992A339001E6A79 /* shorts in Resources */ = {isa = PBXBuildFile; fileRef = 74C8A6AE2992A339001E6A79 /* shorts */; };
 		74F3E024299526AE004A0C3E /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3E023299526AE004A0C3E /* StatusView.swift */; };
@@ -44,6 +45,7 @@
 		7449B15B298AA648000D4D1C /* SwiftStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyTests.swift; sourceTree = "<group>"; };
 		7449B179298AB582000D4D1C /* Commits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commits.swift; sourceTree = "<group>"; };
 		7449B17B298AB6FF000D4D1C /* commits */ = {isa = PBXFileReference; lastKnownFileType = text; path = commits; sourceTree = "<group>"; };
+		74A9DD512996A29B00185469 /* CommitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitView.swift; sourceTree = "<group>"; };
 		74C8A6AC29928781001E6A79 /* testcommits */ = {isa = PBXFileReference; lastKnownFileType = text; path = testcommits; sourceTree = "<group>"; };
 		74C8A6AE2992A339001E6A79 /* shorts */ = {isa = PBXFileReference; lastKnownFileType = text; path = shorts; sourceTree = "<group>"; };
 		74F3E023299526AE004A0C3E /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				7449B144298AA646000D4D1C /* SwiftStudyApp.swift */,
 				7449B146298AA646000D4D1C /* ContentView.swift */,
 				74F3E023299526AE004A0C3E /* StatusView.swift */,
+				74A9DD512996A29B00185469 /* CommitView.swift */,
 				7449B179298AB582000D4D1C /* Commits.swift */,
 				7449B17B298AB6FF000D4D1C /* commits */,
 				74C8A6AE2992A339001E6A79 /* shorts */,
@@ -231,6 +234,7 @@
 				7449B151298AA648000D4D1C /* SwiftStudy.xcdatamodeld in Sources */,
 				74F3E024299526AE004A0C3E /* StatusView.swift in Sources */,
 				7449B147298AA646000D4D1C /* ContentView.swift in Sources */,
+				74A9DD522996A29B00185469 /* CommitView.swift in Sources */,
 				7449B145298AA646000D4D1C /* SwiftStudyApp.swift in Sources */,
 				7449B17A298AB582000D4D1C /* Commits.swift in Sources */,
 			);

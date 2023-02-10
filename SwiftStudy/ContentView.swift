@@ -18,15 +18,20 @@ struct ContentView: View {
     @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Commit.date, ascending: true)], animation: .default)
     private var commits: FetchedResults<Commit>
 
+    @State var selectedCommit: Commit?
+
     var body: some View {
         VStack {
             StatusView(lastCommitHash: commits.last?.commit)
             if !commits.isEmpty {
                 List(commits[0..<commitLoader.visibleEnd], id: \.listID) { commit in
-                    CommitView(commit: viewContext.object(with: commit.objectID) as! Commit).onTapGesture {
-                        self.commitLoader.checkUntil(commit)
+                    CommitView(commit: viewContext.object(with: commit.objectID) as! Commit, selectedCommit: self.selectedCommit).onTapGesture {
+                        Task {
+                            await self.commitLoader.checkUntil(commit)
+                            self.selectedCommit = commit
+                        }
                     }
-                }
+                }.listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
             } else {
                 Spacer()
             }
@@ -37,23 +42,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}
-
-struct CommitView: View {
-    let commit: Commit
-
-    var body: some View {
-        HStack {
-            if commit.checked {
-                Image(systemName: "bookmark.fill")
-            } else {
-                Image(systemName: "bookmark")
-            }
-            Text("\(commit.commit!)")
-            Text(commit.date!, format: .dateTime)
-            Spacer()
-            Text(commit.comment ?? "nil")
-        }
     }
 }

@@ -26,18 +26,6 @@ final class Commits: ObservableObject {
 
     @Published var state: State = .idle
     @Published var parsedCommitLine: CommitLine?
-//
-//    @Published var selectedCommitID: Commit.CommitID? {
-//        didSet {
-//            guard let selectedCommitID else {
-//                return
-//            }
-//
-//            Task {
-//                try! await PersistenceController.shared.checkAll(until: selectedCommitID)
-//            }
-//        }
-//    }
 
     let visibleLimit = 10
     var visibleOffset: Int {
@@ -118,13 +106,15 @@ final class Commits: ObservableObject {
         }
     }
 
-    func checkUntil(_ commit: Commit) {
-        Task {
+    func checkUntil(_ commit: Commit) async {
+        do {
             if let commitHash = commit.commit {
                 NSPasteboard.general.clearContents()
                 NSPasteboard.general.setString(commitHash, forType: NSPasteboard.PasteboardType.string)
             }
-            try! await PersistenceController.shared.checkAll(until: commit)
+            try await PersistenceController.shared.checkAll(until: commit)
+        } catch {
+            assertionFailure(error.localizedDescription)
         }
     }
 }
