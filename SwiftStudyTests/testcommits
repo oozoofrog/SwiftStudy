@@ -1,0 +1,8 @@
+
+48546fd6d35 1675201837 [move-only] Move BorrowToDestructureTransform back into the Object Checker rather than as a separate pass.
+39d32642374 1675199382 [move-only] Make sure that when the borrow to destructure transform emits an error, we clean up the IR appropriately.
+3302b27df8a 1675206432 Merge pull request #62775 from AnthonyLatsis/sugar-type-members-2
+
+e6e7bd06290 1675205790 Merge pull request #63296 from hyp/eng/print-ns-interface-quick
+11a55ec3a0a 1675202360 ModuleInterface: Coallesce `@_backDeploy` attributes when printed.
+8d49757fc69 1675197345 Merge pull request #63222 from xedin/diag-ambiguous-requirement-failures

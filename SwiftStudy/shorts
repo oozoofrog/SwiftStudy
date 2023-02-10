@@ -1,0 +1,55 @@
+
+06452fbb47f 1675260005 Merge pull request #63329 from aschwaighofer/initial_relative_protocol_witness_tables_runtime
+0c8c8a5c80f 1675248735 Merge pull request #63334 from tshortli/print-back-deploy-attrs-coallesced
+124b098a187 1675235097 Merge pull request #63288 from apple/krilnon/unsafe-buffer-pointer-docs
+afe43a46990 1675229692 Merge pull request #63106 from valeriyvan/Benchmark-UnsafeRawBufferPointer-first
+9cf008cf724 1675227845 Merge pull request #63337 from gottesmm/pr-d2869554cff24b4059130c3f6192a1417ed9b9cb
+48c6f59186b 1675227408 [Distributed] LocalDAS cannot gain constraint on resolve method (#63321)
+0af352314a8 1675225061 Merge pull request #63322 from DougGregor/macro-expansion-unique-name-mangling
+4409c2fc6cf 1675214299 Merge pull request #63271 from AnthonyLatsis/min-size-xcode
+48546fd6d35 1675201837 [move-only] Move BorrowToDestructureTransform back into the Object Checker rather than as a separate pass.
+39d32642374 1675199382 [move-only] Make sure that when the borrow to destructure transform emits an error, we clean up the IR appropriately.
+3302b27df8a 1675206432 Merge pull request #62775 from AnthonyLatsis/sugar-type-members-2
+e6e7bd06290 1675205790 Merge pull request #63296 from hyp/eng/print-ns-interface-quick
+11a55ec3a0a 1675202360 ModuleInterface: Coallesce `@_backDeploy` attributes when printed.
+8d49757fc69 1675197345 Merge pull request #63222 from xedin/diag-ambiguous-requirement-failures
+1e05bd858e7 1675196247 Merge pull request #62833 from ahoppen/ahoppen/allow-closure-with-error
+ab8b4a2b5d5 1675195947 Merge pull request #62637 from ahoppen/ahoppen/stmtcondition-at-loc
+5469760b207 1675195904 Merge pull request #62636 from ahoppen/ahoppen/always-sourcedocinfo
+f01bcce9ba8 1675194066 Merge pull request #63319 from DougGregor/experimental-upcoming-feature-module-option
+db60d60eb7d 1675194044 Merge pull request #63318 from DougGregor/emit-macro-expansion-buffers-for-diags
+8e79233eddb 1675192695 Merge pull request #63266 from xymus/public-ctor-override-internal
+770648f1611 1674485519 Initial runtime changes to support relative protocol witness tables
+6905bc07988 1675187577 Update demangle tests for macro expansions
+a9b69a14c51 1675187038 [Concurrency] Add include of unistd.h to TaskGroup.cpp (#63265)
+ac4aa41d0f9 1675147921 [Macros] Use macro expansion mangling for unique names in macros
+1e6daae1793 1675143825 Rename mangling node for freestanding macro expansions
+39cf33217e1 1675132306 Make -enable-(experimental|upcoming)-featuren a module-ignorable option
+1deb72dd938 1675131099 Enable emission of macro expansion buffers for diagnostics by default
+a6ab50cf228 1675130753 [Macros] Add frontend flag to dump macro expansions for diagnostics.
+23888a4f080 1675133303 Concurrency: use `_BitInt(128)` over `__int128` (#63300)
+7ce2b21a57e 1675132306 Make -enable-(experimental|upcoming)-featuren a module-ignorable option
+919da2c6c0a 1675131099 Enable emission of macro expansion buffers for diagnostics by default
+88711298962 1675130753 [Macros] Add frontend flag to dump macro expansions for diagnostics.
+7ea2b4becb3 1675127424 Merge pull request #63249 from tbkka/tbkka-fix-MPE-degenerate-test-on-32-bit
+2d8f075333b 1675103728 [Serialization] Drop any failed overriding relationship when allowing errors
+7016679fa5e 1675111389 Merge pull request #63208 from sophiapoirier/require-pack-reference-within-pack-expansion
+52b218658d5 1675110946 Merge pull request #63298 from aschwaighofer/fix_vwt_under_relative_protocol_witness_tables
+07db94bc1c0 1675106653 Merge pull request #63287 from AnthonyLatsis/opaque-result-diag
+38030dd2a8b 1675102436 [Serialization] Limit ignoring internal overriden decl to lib evolution
+9c16b4b0135 1674853821 [Serialization] Drop overridden relationship in constructors when safe
+ff1dce63bae 1675104596 Merge pull request #63299 from apple/compnerd/systemic
+41e6089db68 1675104446 Merge pull request #63281 from bnbarham/remove-invalid-assertions
+da30593e93d 1675099195 [interop] test - update to use CxxStdlib module name for printing libc++ interface
+4665053f5bd 1675097999 Merge pull request #63272 from artemcm/EmbedTBDImplicitDependenciesForExplicitGoodness
+17d47bb691c 1672846637 [Sema] Don’t fail constraint generation if a closure contains an ErrorExpr
+484847e38e2 1675095011 Merge pull request #63278 from tshortli/avoid-diagnosing-missing-import-for-desugared-typealias-in-non-resilient-modules
+36b186c65fc 1675094268 build: tweak flags further
+1f0b2e59fa0 1675093362 Remove a stale fixme comment.
+2a4e0ffd7d2 1674860035 IRGen: Don't use relative pointers for value witness tables under relative procotol witness tables mode
+62f4ce65c24 1675047934 [interop] check if CI can find libc++ from swift-ide-test finally
+1c2ba454f60 1675042199 [interop] namespace printing should only print redecls from one module interface
+8c6d50ce09b 1675038347 [interop][test] only run libc++ module interface printing test when the SDK has libc++
+3fd895a13da 1675035507 Merge pull request #63284 from DougGregor/swift-syntax-macros-module-update
+88c8893e806 1675020582 [interop] AST printer should only visit one original namespace decl to avoid printing redecls over and over again
+32bd60acfa1 1675020321 Make code compile for Swift 5.5
