@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SwiftStudy
+@testable import SwiftCommitStudy
 
 final class SwiftStudyTests: XCTestCase {
 

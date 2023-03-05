@@ -33,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7449B141298AA646000D4D1C /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7449B141298AA646000D4D1C /* SwiftCommitStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCommitStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449B144298AA646000D4D1C /* SwiftStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyApp.swift; sourceTree = "<group>"; };
 		7449B146298AA646000D4D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7449B148298AA648000D4D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		7449B14D298AA648000D4D1C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7449B150298AA648000D4D1C /* SwiftStudy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftStudy.xcdatamodel; sourceTree = "<group>"; };
 		7449B152298AA648000D4D1C /* SwiftStudy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftStudy.entitlements; sourceTree = "<group>"; };
-		7449B157298AA648000D4D1C /* SwiftStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7449B157298AA648000D4D1C /* SwiftCommitStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommitStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449B15B298AA648000D4D1C /* SwiftStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyTests.swift; sourceTree = "<group>"; };
 		7449B179298AB582000D4D1C /* Commits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commits.swift; sourceTree = "<group>"; };
 		7449B17B298AB6FF000D4D1C /* commits */ = {isa = PBXFileReference; lastKnownFileType = text; path = commits; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 		7449B142298AA646000D4D1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7449B141298AA646000D4D1C /* SwiftStudy.app */,
-				7449B157298AA648000D4D1C /* SwiftStudyTests.xctest */,
+				7449B141298AA646000D4D1C /* SwiftCommitStudy.app */,
+				7449B157298AA648000D4D1C /* SwiftCommitStudyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7449B140298AA646000D4D1C /* SwiftStudy */ = {
+		7449B140298AA646000D4D1C /* SwiftCommitStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7449B16B298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftStudy" */;
+			buildConfigurationList = 7449B16B298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftCommitStudy" */;
 			buildPhases = (
 				7449B13D298AA646000D4D1C /* Sources */,
 				7449B13E298AA646000D4D1C /* Frameworks */,
@@ -138,16 +138,16 @@
 			);
 			dependencies = (
 			);
-			name = SwiftStudy;
+			name = SwiftCommitStudy;
 			packageProductDependencies = (
 			);
 			productName = SwiftStudy;
-			productReference = 7449B141298AA646000D4D1C /* SwiftStudy.app */;
+			productReference = 7449B141298AA646000D4D1C /* SwiftCommitStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7449B156298AA648000D4D1C /* SwiftStudyTests */ = {
+		7449B156298AA648000D4D1C /* SwiftCommitStudyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7449B16E298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftStudyTests" */;
+			buildConfigurationList = 7449B16E298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftCommitStudyTests" */;
 			buildPhases = (
 				7449B153298AA648000D4D1C /* Sources */,
 				7449B154298AA648000D4D1C /* Frameworks */,
@@ -158,9 +158,9 @@
 			dependencies = (
 				7449B159298AA648000D4D1C /* PBXTargetDependency */,
 			);
-			name = SwiftStudyTests;
+			name = SwiftCommitStudyTests;
 			productName = SwiftStudyTests;
-			productReference = 7449B157298AA648000D4D1C /* SwiftStudyTests.xctest */;
+			productReference = 7449B157298AA648000D4D1C /* SwiftCommitStudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7449B13C298AA646000D4D1C /* Build configuration list for PBXProject "SwiftStudy" */;
+			buildConfigurationList = 7449B13C298AA646000D4D1C /* Build configuration list for PBXProject "SwiftCommitStudy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,8 +197,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7449B140298AA646000D4D1C /* SwiftStudy */,
-				7449B156298AA648000D4D1C /* SwiftStudyTests */,
+				7449B140298AA646000D4D1C /* SwiftCommitStudy */,
+				7449B156298AA648000D4D1C /* SwiftCommitStudyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,7 @@
 /* Begin PBXTargetDependency section */
 		7449B159298AA648000D4D1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7449B140298AA646000D4D1C /* SwiftStudy */;
+			target = 7449B140298AA646000D4D1C /* SwiftCommitStudy */;
 			targetProxy = 7449B158298AA648000D4D1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,6 +386,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftCommitStudy;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,6 +415,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftCommitStudy;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,7 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftStudy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCommitStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftCommitStudy";
 			};
 			name = Debug;
 		};
@@ -462,14 +464,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftStudy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCommitStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftCommitStudy";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7449B13C298AA646000D4D1C /* Build configuration list for PBXProject "SwiftStudy" */ = {
+		7449B13C298AA646000D4D1C /* Build configuration list for PBXProject "SwiftCommitStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7449B169298AA648000D4D1C /* Debug */,
@@ -478,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7449B16B298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftStudy" */ = {
+		7449B16B298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftCommitStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7449B16C298AA648000D4D1C /* Debug */,
@@ -487,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7449B16E298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftStudyTests" */ = {
+		7449B16E298AA648000D4D1C /* Build configuration list for PBXNativeTarget "SwiftCommitStudyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7449B16F298AA648000D4D1C /* Debug */,
